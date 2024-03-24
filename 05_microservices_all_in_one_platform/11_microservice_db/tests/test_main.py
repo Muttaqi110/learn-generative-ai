@@ -1,12 +1,4 @@
-from fastapi.testclient import TestClient
-from sqlmodel import Field, Session, SQLModel, create_engine, select
 
-# https://sqlmodel.tiangolo.com/tutorial/fastapi/tests/#override-a-dependency
-from fastapi_neon.main import app, get_session, Todo
-
-from fastapi_neon import settings
-
-# https://fastapi.tiangolo.com/tutorial/testing/
 # https://realpython.com/python-assert-statement/
 # https://understandingdata.com/posts/list-of-python-assert-statements-for-unit-tests/
 
